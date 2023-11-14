@@ -1,4 +1,5 @@
 //STEP 1
+
 const movies_name = ["ddlj","hum sath sath hain","hum apke hain kaun","k3g","don",];
 //console.log(movies_name[1])
 //STEP 2

@@ -2,13 +2,14 @@
 
 let employees =[]
 
+
 const showEmployeeCount = () => {
     let empCount = employees.length;
     const output = document.querySelector('output');
     output.innerText = `(${empCount})`;
   };
 // CHECK TO SEE IF STORAGE OBJECT EXISTS WHEN THE PAGE LOADS
-// IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATED ARRAY
+// IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATED ARRAY 
 
 window.addEventListener('load', () => {
     if (JSON.parse(localStorage.getItem('employees').length)) {
